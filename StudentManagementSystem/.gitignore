@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+**/bin/
+**/obj/
+out/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+project.assets.json
+
+# SourceLink
+*.sourcelink.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Others
+*.dbmdl
+*.bak
+*.orig
+*.cache
+*.pdb
+*.mdb
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.*
