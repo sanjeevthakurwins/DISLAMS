@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DISLAMS.StudentManagement.API.props" />
+</Project>

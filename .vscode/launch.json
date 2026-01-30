@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch DISLAMS.StudentManagement.API (Debug)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/StudentManagementSystem/DISLAMS.StudentManagement.API/bin/Debug/net8.0/DISLAMS.StudentManagement.API.dll",
+      "cwd": "${workspaceFolder}/StudentManagementSystem/DISLAMS.StudentManagement.API",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "Now listening on: (https?://\\S+)"
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Attach to .NET Core",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
